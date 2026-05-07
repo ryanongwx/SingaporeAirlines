@@ -26,27 +26,6 @@ function useReveal<T extends HTMLElement>() {
   return ref
 }
 
-function TopBar() {
-  return (
-    <div className="relative z-20 border-b border-white/5 bg-black/20 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-8 py-2 text-xs text-muted-foreground">
-        <div className="flex items-center gap-4">
-          <span>Singapore (SGD)</span>
-          <span className="opacity-40">•</span>
-          <a href="#" className="hover:text-foreground">English</a>
-        </div>
-        <div className="flex items-center gap-4">
-          <a href="#" className="hover:text-foreground">KrisFlyer Sign In</a>
-          <span className="opacity-40">•</span>
-          <a href="#" className="hover:text-foreground">Join Now</a>
-          <span className="opacity-40">•</span>
-          <a href="#" className="hover:text-foreground">Help</a>
-        </div>
-      </div>
-    </div>
-  )
-}
-
 function Nav() {
   return (
     <nav className="relative z-10 mx-auto flex max-w-7xl flex-row items-center justify-between px-8 py-6">
